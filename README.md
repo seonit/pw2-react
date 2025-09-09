@@ -24,6 +24,15 @@ npm install @reduxjs/toolkit react-redux
 
 4. 생성한 Slices를 Store에 추가
 
-5. main.jsx React Redux <Provider> 추가 (St)
+5. main.jsx React Redux <Provider> 추가 (StrctMode를 제외한 최상위 컴포넌트 일 것)
 
 6. 사용
+
+<!-- Redix Thunk -->
+1. Redux Thunk 설치
+npm install redux-thunk
+
+2. Redux Thunk 파일 생성
+src/store/thunks/**
+
+3. 해당 Slice에 `extraReducers` 추가
